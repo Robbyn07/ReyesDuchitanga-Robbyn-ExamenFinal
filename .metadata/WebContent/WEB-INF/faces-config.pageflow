@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16124618198340" configfile="/ReyesDuchitanga-Robbyn-ExamenFinal/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="inicio.xhtml" id="pf16124618581717" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf16124618581718" path="/inicio.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="crearReserva.xhtml" id="pf16124618581719" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf16124618581718" path="/crearReservacion.xhtml"/>
+  <links id="pf16124618581718" target="pf16124618581719" source="pf16124618581717" outcome="reservar"/>
+</pageflow:Pageflow>
